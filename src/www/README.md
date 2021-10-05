@@ -37,7 +37,9 @@ If you see any brackets, they indicate a placeholder. Don't type them in.
 	* blue
 	* purple
 	* black
+	* burningbar
 	* pink
+	* mandelbrot
 	* If you don't type a color, you will be given one at random.
 * `/joke` - Tell a horribly written joke.
 * `/fact` - Tell a horribly written "fact".

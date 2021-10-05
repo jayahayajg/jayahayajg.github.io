@@ -16,7 +16,9 @@ window.BonziHandler = new (function() {
 			"purple",
 			"red",
 			"pink",
-			"pope"
+			"bonziburningbar2",
+			"pope",
+			"bonzibrot"
 		];
 
 		for (var i = 0; i < spriteColors.length; i++) {

@@ -143,6 +143,12 @@ class Bonzi {
 							});
 						}
 					},
+					"annih": {
+						name: "Annihilate",
+						callback: () => {
+							this.deconstruct();
+						}
+					},
 					"owo": {
 						name: "Notice Bulge",
 						callback: () => {

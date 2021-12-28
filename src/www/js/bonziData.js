@@ -1,3 +1,4 @@
+//bonziData
 var BonziData = {
 	size: {
 		x: 200,

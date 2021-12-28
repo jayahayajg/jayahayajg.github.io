@@ -11,7 +11,7 @@ var BonziData = {
 			surf_across_fwd: [1, 8, "surf_across_still", 1],
 			surf_across_still: 9,
 			surf_across_back: {
-				frames: range(8,1),
+				frames: [8,7,6,5,4,3,2,1],
 				next: "idle",
 				speed: 1
 			},
@@ -19,7 +19,7 @@ var BonziData = {
 			clap_fwd: [10, 12, "clap_still", 1],
 			clap_still: [13, 15, "clap_still", 1],
 			clap_back: {
-				frames: range(12,10),
+				frames: [12,11,10],
 				next: "idle",
 				speed: 1
 			},
@@ -32,7 +32,7 @@ var BonziData = {
 			shrug_fwd: [40, 50, "shrug_still", 1],
 			shrug_still: 50,
 			shrug_back: {
-				frames: range(50,40),
+				frames: [50,49,48,47,46,45,44,43,42,41,40],
 				next: "idle",
 				speed: 1
 			},
@@ -45,7 +45,7 @@ var BonziData = {
 			look_down_fwd: [87, 90, "look_down_still", 1],
 			look_down_still: 91,
 			look_down_back: {
-				frames: range(90, 87),
+				frames: [90, 89, 88, 87],
 				next: "idle",
 				speed: 1
 			},
@@ -54,7 +54,7 @@ var BonziData = {
 			lean_left_fwd: [94, 97, "lean_left_still", 1],
 			lean_left_still: 98,
 			lean_left_back: {
-				frames: range(97, 94),
+				frames: [97 ,96,95, 94],
 				next: "idle",
 				speed: 1
 			},
@@ -62,7 +62,7 @@ var BonziData = {
 			beat_fwd: [101, 103, "beat_still", 1],
 			beat_still: [104, 107, "beat_still", 1],
 			beat_back: {
-				frames: range(103, 101),
+				frames: [103, 102, 101],
 				next: "idle",
 				speed: 1
 			},
@@ -70,7 +70,7 @@ var BonziData = {
 			cool_fwd: [108, 124, "cool_still", 1],
 			cool_still: 125,
 			cool_back: {
-				frames: range(124, 108),
+				frames: [124, 123,122,121,120 ,119,118,117,116,115,114,113,112,111,110,109, 108],
 				next: "idle",
 				speed: 1
 			},
@@ -78,7 +78,7 @@ var BonziData = {
 			cool_right_fwd: [126, 128, "cool_right_still", 1],
 			cool_right_still: 129,
 			cool_right_back: {
-				frames: range(128, 126),
+				frames: [128, 127, 126],
 				next: "idle",
 				speed: 1
 			},
@@ -86,7 +86,7 @@ var BonziData = {
 			cool_left_fwd: [131, 133, "cool_left_still", 1],
 			cool_left_still: 134,
 			cool_left_back: {
-				frames: range(133, 131),
+				frames: [133, 132, 131],
 				next: "cool_still",
 				speed: 1
 			},
@@ -100,7 +100,7 @@ var BonziData = {
 			present_fwd: [137, 141, "present_still", 1],
 			present_still: 142,
 			present_back: {
-				frames: range(141, 137),
+				frames: [141, 140,139,138, 137],
 				next: "idle",
 				speed: 1
 			},
@@ -108,7 +108,7 @@ var BonziData = {
 			look_left_fwd: [143, 145, "look_left_still", 1],
 			look_left_still: 146,
 			look_left_back: {
-				frames: range(145, 143),
+				frames: [145,144 ,143],
 				next: "idle",
 				speed: 1
 			},
@@ -116,13 +116,13 @@ var BonziData = {
 			look_right_fwd: [149, 151, "look_right_still", 1],
 			look_right_still: 152,
 			look_right_back: {
-				frames: range(151, 149),
+				frames: [151, 150,149],
 				next: "idle",
 				speed: 1
 			},
 			
 			lean_right_fwd: { 
-				frames: range(158, 156), 
+				frames: [158, 157, 156], 
 				next: "lean_right_still", 
 				speed: 1 
 			} ,
@@ -132,7 +132,7 @@ var BonziData = {
 			praise_fwd: [159, 163, "praise_still", 1], 
 			praise_still: 164, 
 			praise_back: { 
-				frames: range(163, 159), 
+				frames: [163, 162,161,160 ,159], 
 				next: "idle", 
 				speed: 1 
 			},
@@ -140,7 +140,7 @@ var BonziData = {
 			grin_fwd: [182, 189, "grin_still", 1], 
 			grin_still: 184, 
 			grin_back: { 
-				frames: range(184, 182), 
+				frames: (184, 183, 182), 
 				next: "idle", 
 				speed: 1
 			},
@@ -289,6 +289,15 @@ var BonziData = {
 			{
 				type: "text",
 				text: "Sorry. I just had an epiphany of my own sad, sad existence."
+			}
+		],[
+			{
+				type: "text",
+				text: "What do you call Santa stuck in a chimney?"
+			},
+			{
+				type: "text",
+				text: "A corpse."
 			}
 		],[
 			{

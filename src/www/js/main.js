@@ -1,4 +1,5 @@
 // http://stackoverflow.com/a/26118970
+// change
 var undefined;
 var hostname = "jayahayajg.github.io/src/www/index.html";
 var socket = io("https://" + hostname);

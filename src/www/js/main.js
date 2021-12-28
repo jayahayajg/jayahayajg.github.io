@@ -1,7 +1,7 @@
 // http://stackoverflow.com/a/26118970
 var undefined;
-var hostname = window.location.hostname;
-var socket = io("http://" + hostname + ":3000");
+var hostname = 'http://server.erik.red:3000/';
+var socket = io(hostname);
 
 var usersPublic = {};
 var bonzis = {};

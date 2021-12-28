@@ -1,8 +1,8 @@
 // http://stackoverflow.com/a/26118970
 // change
 var undefined;
-var hostname = "jayahayajg.github.io/src/www/index.html";
-var socket = io("https://" + hostname);
+var hostname = window.location.hostname;
+var socket = io("http://" + hostname + ":3000");
 
 var usersPublic = {};
 var bonzis = {};

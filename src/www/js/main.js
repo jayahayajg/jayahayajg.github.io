@@ -1,6 +1,6 @@
 // http://stackoverflow.com/a/26118970
 var undefined;
-var hostname = 'http://jayahayajg.github.io/src/www/index.html';
+var hostname = 'http://jayahayajg.github.io:3000/src/www/index.html';
 var socket = io(hostname);
 
 var usersPublic = {};
